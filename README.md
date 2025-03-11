@@ -27,6 +27,10 @@ sudo pacman -Rsn bat
 
 ```bash
 sudo pacman -Ss neovim
-# Search for installed package
+# To search for already installed packages:
+sudo pacman -Qs neovim
 ```
 
+## Reference
+
+- https://wiki.archlinux.org/title/Pacman
