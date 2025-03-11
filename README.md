@@ -17,7 +17,16 @@ sudo pacman -S bat
 ## Uninstall Package
 
 ```bash
+# To remove a package and its dependencies which are not required by any other installed package:
 sudo pacman -Rs bat
-# Full removal
+# Remove including backup file
 sudo pacman -Rsn bat
 ```
+
+## Search for Package
+
+```bash
+sudo pacman -Ss neovim
+# Search for installed package
+```
+
